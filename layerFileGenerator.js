@@ -1,11 +1,16 @@
-const axios = require('axios');
 const ManufacturingSectors = require('./data/manufacturingSectors.json');
+const simpleGit = require('simple-git');
+const axios = require('axios');
 const fs = require('fs');
 
 
+const git = simpleGit();
+
+// Create an Axios instance
 const http = axios.create({
     baseURL: "https://attack.mitre.org/versions/v12/groups"
 });
+
 
 // Run on start and then every 24 hours after that.
 generateLayerFiles()
@@ -23,6 +28,7 @@ setInterval(function() {
 */
 function generateLayerFiles() {
     try {
+        let successfulSaves = 0;
         /* 
             We enter the ManufacturingSectors object and retrieve each corresponding groups layer.json file, gather all the groups techniques and save a new layer.json file including all techniques used by each group.
         */
@@ -67,11 +73,22 @@ function generateLayerFiles() {
                     let file = JSON.stringify(layerFile, undefined, 4)
                     saveFile(fileName, file, lastFileSaved)
                     lastFileSaved = fileName;
+                    successfulSaves++;
                 }
 
-                
+                // If all files saved successfully we will upload them to GitHub.
+                if (successfulSaves === ManufacturingSectors.length) {
+                    // We get the current date to save in the PR title.
+                    let today = new Date();
+                    let dd = String(today.getDate()).padStart(2, '0');
+                    let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                    let yyyy = today.getFullYear();
+                    today = mm + '/' + dd + '/' + yyyy;
+
+                    commitAndPush()
+                }
             });
-        }
+            }
         }
     } catch(error) {
         console.log((new Date()).toISOString() + `[ERROR] Generating layer.json files. ${error}.`);
@@ -90,12 +107,12 @@ async function getGroupLayerFiles(groups) {
                 techniquesArray.push(responseData.techniques);
             })
             .catch(err => {
-                console.error(err);
+                console.error((new Date()).toISOString() + err);
             });
         }));
         return techniquesArray;
     } catch (err) {
-        console.error(err);
+        console.error((new Date()).toISOString() + err);
     }
 }
 
@@ -110,7 +127,20 @@ function saveFile(name, data, lastFileSaved) {
                 console.error(err);
                 return;
             }
-            console.log("File saved successfully!");
+            console.log((new Date()).toISOString() + `File ${name} saved successfully!`);
         });
+    }
+}
+
+
+
+async function commitAndPush() {
+    try {
+        // Add and commit all files located under data/layers
+        await git.add('./data/layers/*');
+        await git.commit('Commit all files located under data/layers');
+        await git.push('origin', 'main'); // push the changes to the remote repository
+    } catch (err) {
+        console.error((new Date()).toISOString() + err);
     }
 }
