@@ -236,7 +236,10 @@
     ],
     "gradient": {
         "colors": [
+            "#ffffff",
             "#66b1ff"
-        ]
+        ],
+        "minValue": 0,
+        "maxValue": 10
     }
 }
