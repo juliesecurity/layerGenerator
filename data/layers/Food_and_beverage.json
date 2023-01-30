@@ -233,5 +233,10 @@
                 "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used Dropbox for C2 allowing upload and download of files as well as execution of arbitrary commands.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
             }
         ]
-    ]
+    ],
+    "gradient": {
+        "colors": [
+            "#66b1ff"
+        ]
+    }
 }
