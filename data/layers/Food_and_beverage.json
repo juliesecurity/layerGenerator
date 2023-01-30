@@ -15,33 +15,26 @@
     "techniques": [
         [
             {
-                "techniqueID": "T1583",
+                "techniqueID": "T1595",
                 "showSubtechniques": true
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1583.001",
+                "techniqueID": "T1595.002",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has purchased domains for use in targeted campaigns.(Citation: Microsoft Targeting Elections September 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has used publicly accessible DNS logging services to identify servers vulnerable to Log4j (CVE 2021-44228).(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1583.006",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used GitHub to host malware linked in spearphishing e-mails.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "techniqueID": "T1547",
+                "techniqueID": "T1560",
                 "showSubtechniques": true
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1547.001",
+                "techniqueID": "T1560.001",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has created a Registry Run key named Dropbox Update Setup to establish persistence for a malicious Python binary.(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has used WinRAR to compress memory dumps prior to exfiltration.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
                 "techniqueID": "T1059",
@@ -50,187 +43,117 @@
             {
                 "score": 1,
                 "color": "#66b1ff",
+                "techniqueID": "T1059.001",
+                "showSubtechniques": true,
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has downloaded additional scripts and executed Base64 encoded commands in PowerShell.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
+            },
+            {
+                "score": 1,
+                "color": "#66b1ff",
                 "techniqueID": "T1059.003",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to open a Windows Command Shell on a remote host.(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted and failed to run Bash commands on a Windows host by passing them to cmd /C.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1059.006",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used Python-based implants to interact with compromised hosts.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "techniqueID": "T1555",
+                "techniqueID": "T1574",
                 "showSubtechniques": true
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1555.003",
+                "techniqueID": "T1574.001",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to steal credentials from installed web browsers including Microsoft Internet Explorer and Google Chrome.(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has used DLL search-order hijacking to load `exe`, `dll`, and `dat` files into memory.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1140",
-                "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used the AES256 algorithm with a SHA1 derived key to decrypt exploit code.(Citation: Check Point APT31 February 2021)"
-            },
-            {
-                "techniqueID": "T1573",
+                "techniqueID": "T1562",
                 "showSubtechniques": true
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1573.001",
+                "techniqueID": "T1562.001",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used AES encrypted communications in C2.(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted to stop endpoint detection and response (EDR) tools on compromised systems.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1041",
-                "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has exfiltrated files via the Dropbox API C2.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "techniqueID": "T1567",
+                "techniqueID": "T1070",
                 "showSubtechniques": true
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1567.002",
+                "techniqueID": "T1070.004",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has exfiltrated stolen data to Dropbox.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1068",
-                "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has exploited CVE-2017-0005 for local privilege escalation.(Citation: Check Point APT31 February 2021)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has deleted malicious executables from compromised machines.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
                 "techniqueID": "T1105",
                 "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used tools to download malicious files to compromised hosts.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "score": 1,
-                "techniqueID": "T1036",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has spoofed legitimate applications in phishing lures and changed file extensions to conceal  installation of malware.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has downloaded additional malware onto compromised hosts.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1036.004",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has created a run key named Dropbox Update Setup to mask a persistence mechanism for a malicious binary.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
                 "techniqueID": "T1027",
-                "showSubtechniques": true
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1027.002",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used multi-stage packers for exploit code.(Citation: Check Point APT31 February 2021)"
-            },
-            {
-                "techniqueID": "T1566",
-                "showSubtechniques": true
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1566.002",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used malicious links and web beacons in e-mails for malware download and to track hits to attacker-controlled URL's.(Citation: Microsoft Targeting Elections September 2020)(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1598",
                 "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) targeted presidential campaign staffers with credential phishing e-mails.(Citation: Google Election Threats October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has encoded commands in Base64.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1012",
-                "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to query the Registry for proxy settings.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "techniqueID": "T1218",
+                "techniqueID": "T1588",
                 "showSubtechniques": true
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1218.007",
+                "techniqueID": "T1588.001",
                 "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used the msiexec.exe command-line utility to download and execute malicious MSI files.(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has acquired and used [njRAT](https://attack.mitre.org/software/S0385) in its operations.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
+            },
+            {
+                "score": 1,
+                "color": "#66b1ff",
+                "techniqueID": "T1588.002",
+                "showSubtechniques": true,
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has acquired and used [Cobalt Strike](https://attack.mitre.org/software/S0154) in its operations.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
+            },
+            {
+                "techniqueID": "T1003",
+                "showSubtechniques": true
+            },
+            {
+                "score": 1,
+                "color": "#66b1ff",
+                "techniqueID": "T1003.001",
+                "showSubtechniques": true,
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted to harvest credentials through LSASS memory dumping.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
+            },
+            {
+                "techniqueID": "T1518",
+                "showSubtechniques": true
+            },
+            {
+                "score": 1,
+                "color": "#66b1ff",
+                "techniqueID": "T1518.001",
+                "showSubtechniques": true,
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted to discover third party endpoint detection and response (EDR) tools on compromised systems.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
                 "techniqueID": "T1082",
                 "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to capture the processor architecture of a compromised host in order to register it with C2.(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has used native OS commands to understand privilege levels and system details.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             },
             {
                 "score": 1,
                 "color": "#66b1ff",
-                "techniqueID": "T1016",
+                "techniqueID": "T1007",
                 "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to enumerate proxy settings in the target environment.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1033",
-                "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to capture the username on a compromised host in order to register it with C2.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1124",
-                "showSubtechniques": false,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used a tool to capture the time on a compromised host in order to register it with C2.(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "techniqueID": "T1204",
-                "showSubtechniques": true
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1204.001",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used malicious links in e-mails to lure victims into downloading malware.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
-            },
-            {
-                "techniqueID": "T1102",
-                "showSubtechniques": true
-            },
-            {
-                "score": 1,
-                "color": "#66b1ff",
-                "techniqueID": "T1102.002",
-                "showSubtechniques": true,
-                "comment": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has used Dropbox for C2 allowing upload and download of files as well as execution of arbitrary commands.(Citation: Google Election Threats October 2020)(Citation: Zscaler APT31 Covid-19 October 2020)"
+                "comment": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has attempted to discover services for third party EDR products.(Citation: CrowdStrike AQUATIC PANDA December 2021)"
             }
         ]
     ],
@@ -241,5 +164,11 @@
         ],
         "minValue": 0,
         "maxValue": 1
-    }
+    },
+    "legendItems": [
+        {
+            "label": "used by Aquatic Panda",
+            "color": "#66b1ff"
+        }
+    ]
 }
