@@ -39,7 +39,7 @@ function generateLayerFiles() {
             let fileName = (sector.name).replaceAll(' ', '_')
             let lastFileSaved = '';
             
-            setTimeout(getLayers, 30000);
+            setTimeout(getLayers, 2000);
 
             function getLayers() {
             getGroupLayerFiles(activeGroups).then(response => {
@@ -104,7 +104,11 @@ async function getGroupLayerFiles(groups) {
             let response = await http.get(`https://attack.mitre.org/versions/v12/groups/${group}/${group}-enterprise-layer.json`)
             .then(response => {
                 let responseData = response.data;
-                techniquesArray.push(responseData.techniques);
+                let responseTechniques = responseData.techniques
+                for (let i = 0; i < responseTechniques.length; i++) {
+                    let thisTechnique = responseTechniques[i]
+                    techniquesArray.push(thisTechnique);
+                }
             })
             .catch(err => {
                 console.error((new Date()).toISOString() + err);
