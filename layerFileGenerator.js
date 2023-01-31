@@ -2,14 +2,15 @@ const ManufacturingSectors = require('./data/manufacturingSectors.json');
 const simpleGit = require('simple-git');
 const axios = require('axios');
 const fs = require('fs');
+const rateLimit = require('axios-rate-limit');
 
 
 const git = simpleGit();
 
-// Create an Axios instance
-const http = axios.create({
+// Create an Axios instance and set a request limit of 10 requests per second.
+const http = rateLimit(axios.create({
     baseURL: "https://attack.mitre.org/versions/v12/groups"
-});
+}), { maxRequests: 10, perMilliseconds: 1000, maxRPS: 10 } )
 
 
 // Run on start and then every 24 hours after that.
@@ -39,7 +40,7 @@ function generateLayerFiles() {
             let fileName = (sector.name).replaceAll(' ', '_')
             let lastFileSaved = '';
             
-            setTimeout(getLayers, 2000);
+            getLayers();
 
             function getLayers() {
             getGroupLayerFiles(activeGroups).then(response => {
@@ -85,7 +86,7 @@ function generateLayerFiles() {
                     let yyyy = today.getFullYear();
                     today = mm + '/' + dd + '/' + yyyy;
 
-                    commitAndPush()
+                    commitAndPush(today)
                 }
             });
             }
@@ -96,12 +97,13 @@ function generateLayerFiles() {
 }
 
 
-
+// We retrieve each group layer file at 10 requests per second.
 async function getGroupLayerFiles(groups) {
     try {
         let techniquesArray = [];
         await Promise.all(groups.map(async group => {
-            let response = await http.get(`https://attack.mitre.org/versions/v12/groups/${group}/${group}-enterprise-layer.json`)
+            http.getMaxRPS()
+            await http.get(`https://attack.mitre.org/versions/v12/groups/${group}/${group}-enterprise-layer.json`)
             .then(response => {
                 let responseData = response.data;
                 let responseTechniques = responseData.techniques
@@ -123,8 +125,6 @@ async function getGroupLayerFiles(groups) {
 
 function saveFile(name, data, lastFileSaved) {
     if (name !== lastFileSaved) {
-        console.log(name)
-        console.log(lastFileSaved)
         lastFileSaved = name;
         fs.writeFile(`./data/layers/${name}.json`, data, (err) => {
             if (err) {
@@ -138,12 +138,13 @@ function saveFile(name, data, lastFileSaved) {
 
 
 
-async function commitAndPush() {
+async function commitAndPush(date) {
     try {
         // Add and commit all files located under data/layers
         await git.add('./data/layers/*');
-        await git.commit('Commit all files located under data/layers');
+        await git.commit(`${date} Commit all files located under data/layers`);
         await git.push('origin', 'main'); // push the changes to the remote repository
+        console.log("[Success] Layer files successfully updated to GitHub.")
     } catch (err) {
         console.error((new Date()).toISOString() + err);
     }
