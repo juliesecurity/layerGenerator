@@ -7352,6 +7352,61 @@
             "comment": "[Chimera](https://attack.mitre.org/groups/G0114) has used WMIC to execute remote commands.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)"
         },
         {
+            "techniqueID": "T1557",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1557.002",
+            "showSubtechniques": true,
+            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has used custom tools to facilitate ARP cache poisoning.(Citation: Cylance Cleaver)"
+        },
+        {
+            "techniqueID": "T1587",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1587.001",
+            "showSubtechniques": true,
+            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has created customized tools and payloads for functions including ARP poisoning, encryption, credential dumping, ASP.NET shells, web backdoors, process enumeration, WMI querying, HTTP and SMB communications, network interface sniffing, and keystroke logging.(Citation: Cylance Cleaver)"
+        },
+        {
+            "techniqueID": "T1585",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1585.001",
+            "showSubtechniques": true,
+            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has created fake LinkedIn profiles that included profile photos, details, and connections.(Citation: Dell Threat Group 2889)"
+        },
+        {
+            "techniqueID": "T1588",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1588.002",
+            "showSubtechniques": true,
+            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has obtained and used open-source tools such as [PsExec](https://attack.mitre.org/software/S0029), [Windows Credential Editor](https://attack.mitre.org/software/S0005), and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Cylance Cleaver)"
+        },
+        {
+            "techniqueID": "T1003",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1003.001",
+            "showSubtechniques": true,
+            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has been known to dump credentials using Mimikatz and Windows Credential Editor.(Citation: Cylance Cleaver)"
+        },
+        {
             "techniqueID": "T1548",
             "showSubtechniques": true
         },
@@ -8367,61 +8422,6 @@
             "techniqueID": "T1219",
             "showSubtechniques": false,
             "comment": "[DarkVishnya](https://attack.mitre.org/groups/G0105) used DameWare Mini Remote Control for lateral movement.(Citation: Securelist DarkVishnya Dec 2018)"
-        },
-        {
-            "techniqueID": "T1557",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1557.002",
-            "showSubtechniques": true,
-            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has used custom tools to facilitate ARP cache poisoning.(Citation: Cylance Cleaver)"
-        },
-        {
-            "techniqueID": "T1587",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1587.001",
-            "showSubtechniques": true,
-            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has created customized tools and payloads for functions including ARP poisoning, encryption, credential dumping, ASP.NET shells, web backdoors, process enumeration, WMI querying, HTTP and SMB communications, network interface sniffing, and keystroke logging.(Citation: Cylance Cleaver)"
-        },
-        {
-            "techniqueID": "T1585",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1585.001",
-            "showSubtechniques": true,
-            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has created fake LinkedIn profiles that included profile photos, details, and connections.(Citation: Dell Threat Group 2889)"
-        },
-        {
-            "techniqueID": "T1588",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1588.002",
-            "showSubtechniques": true,
-            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has obtained and used open-source tools such as [PsExec](https://attack.mitre.org/software/S0029), [Windows Credential Editor](https://attack.mitre.org/software/S0005), and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: Cylance Cleaver)"
-        },
-        {
-            "techniqueID": "T1003",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1003.001",
-            "showSubtechniques": true,
-            "comment": "[Cleaver](https://attack.mitre.org/groups/G0003) has been known to dump credentials using Mimikatz and Windows Credential Editor.(Citation: Cylance Cleaver)"
         },
         {
             "techniqueID": "T1059",
@@ -18123,382 +18123,6 @@
             "comment": "[Moses Staff](https://attack.mitre.org/groups/G1009) has collected the domain name of a compromised network.(Citation: Checkpoint MosesStaff Nov 2021)"
         },
         {
-            "techniqueID": "T1583",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1583.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) have acquired C2 domains prior to operations.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: McAfee Dianxun March 2021)"
-        },
-        {
-            "techniqueID": "T1071",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1071.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has communicated with its C2 via HTTP POST requests.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: McAfee Dianxun March 2021)"
-        },
-        {
-            "techniqueID": "T1560",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1560.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used RAR to create password-protected archives of collected documents prior to exfiltration.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1560.003",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has encrypted documents with RC4 prior to exfiltration.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1119",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) used custom batch scripts to collect files automatically from a targeted system.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "techniqueID": "T1547",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1547.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has created the registry key HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\AdobelmdyU to maintain persistence.(Citation: Proofpoint TA416 November 2020)"
-        },
-        {
-            "techniqueID": "T1059",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used malicious PowerShell scripts to enable execution.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.003",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has executed HTA files via cmd.exe, and used batch scripts for collection.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.005",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has embedded VBScript components in LNK files to download additional files and automate collection.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "techniqueID": "T1074",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1074.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has stored collected credential files in c:\\windows\\temp prior to exfiltration. [Mustang Panda](https://attack.mitre.org/groups/G0129) has also stored documents for exfiltration in a hidden folder on USB drives.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "techniqueID": "T1573",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1573.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has encrypted C2 communications with RC4.(Citation: Recorded Future REDDELTA July 2020)"
-        },
-        {
-            "techniqueID": "T1585",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1585.002",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has leveraged the legitimate email marketing service SMTP2Go for phishing campaigns.(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "techniqueID": "T1546",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1546.003",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129)'s custom ORat tool uses a WMI event consumer to maintain persistence.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "techniqueID": "T1052",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1052.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a customized [PlugX](https://attack.mitre.org/software/S0013) variant which could exfiltrate documents from air-gapped networks.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1203",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has exploited CVE-2017-0199 in Microsoft Word to execute code.(Citation: Crowdstrike MUSTANG PANDA June 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1083",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has searched the entire target system for DOC, DOCX, PPT, PPTX, XLS, XLSX, and PDF files.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "techniqueID": "T1564",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1564.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129)'s [PlugX](https://attack.mitre.org/software/S0013) variant has created a hidden folder on USB drives named RECYCLE.BIN to store malicious executables and collected data.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "techniqueID": "T1574",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1574.002",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a legitimately signed executable to execute a malicious payload within a DLL file.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: Proofpoint TA416 November 2020)"
-        },
-        {
-            "techniqueID": "T1070",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1070.004",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) will delete their tools and files, and kill processes after their objectives are reached.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1105",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has downloaded additional executables following the initial infection stage.(Citation: Recorded Future REDDELTA July 2020)"
-        },
-        {
-            "techniqueID": "T1036",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1036.005",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used names like `adobeupdate.dat` and `PotPlayerDB.dat` to disguise [PlugX](https://attack.mitre.org/software/S0013), and a file named `OneDrive.exe` to load a [Cobalt Strike](https://attack.mitre.org/software/S0154) payload.(Citation: Recorded Future REDDELTA July 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1036.007",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used an additional filename extension to hide the true file type.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has delivered initial payloads hidden using archives and encoding measures.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: Proofpoint TA416 November 2020)(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1027.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used junk code within their DLL files to hinder analysis.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "techniqueID": "T1003",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1003.003",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used vssadmin to create a volume shadow copy and retrieve the NTDS.dit file. [Mustang Panda](https://attack.mitre.org/groups/G0129) has also used reg save on the SYSTEM file Registry location to help extract the NTDS.dit file.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "techniqueID": "T1566",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1566.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used spearphishing attachments to deliver initial access payloads.(Citation: Recorded Future REDDELTA July 2020)(Citation: Proofpoint TA416 November 2020)(Citation: Google TAG Ukraine Threat Landscape March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1566.002",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has delivered web bugs and malicious links to their intended targets.(Citation: McAfee Dianxun March 2021)(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1057",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used tasklist /v to determine active process information.(Citation: Avira Mustang Panda January 2020)\t"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1219",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has installed TeamViewer on targeted systems.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1091",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a customized [PlugX](https://attack.mitre.org/software/S0013) variant which could spread through USB connections.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "techniqueID": "T1053",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1053.005",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has created a scheduled task to execute additional malicious software, as well as maintain persistence.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: McAfee Dianxun March 2021)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1518",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has searched the victim system for the InstallUtil.exe program and its version.(Citation: Anomali MUSTANG PANDA October 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1608",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used servers under their control to validate tracking pixels sent to phishing victims.(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1608.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has hosted malicious payloads on DropBox including [PlugX](https://attack.mitre.org/software/S0013).(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "techniqueID": "T1218",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1218.004",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used InstallUtil.exe to execute a malicious Beacon stager.(Citation: Anomali MUSTANG PANDA October 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1218.005",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used mshta.exe to launch collection scripts.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1082",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has gathered system information using systeminfo.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1016",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used ipconfig and arp to determine network configuration information.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1049",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used netstat -ano to determine network connection information.(Citation: Avira Mustang Panda January 2020)"
-        },
-        {
-            "techniqueID": "T1204",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1204.001",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has sent malicious links including links directing victims to a Google Drive folder.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: McAfee Dianxun March 2021)(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1204.002",
-            "showSubtechniques": true,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has sent malicious files requiring direct victim interaction to execute.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Avira Mustang Panda January 2020)(Citation: Recorded Future REDDELTA July 2020)(Citation: Google TAG Ukraine Threat Landscape March 2022)(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1102",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used DropBox URLs to deliver variants of [PlugX](https://attack.mitre.org/software/S0013).(Citation: Proofpoint TA416 Europe March 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1047",
-            "showSubtechniques": false,
-            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has executed PowerShell scripts via WMI.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)"
-        },
-        {
             "techniqueID": "T1548",
             "showSubtechniques": true
         },
@@ -19009,6 +18633,516 @@
             "techniqueID": "T1047",
             "showSubtechniques": false,
             "comment": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used malware that leveraged WMI for execution and querying host information.(Citation: Securelist MuddyWater Oct 2018)(Citation: ClearSky MuddyWater Nov 2018)(Citation: Talos MuddyWater May 2019)(Citation: DHS CISA AA22-055A MuddyWater February 2022)"
+        },
+        {
+            "techniqueID": "T1583",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1583.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) have acquired C2 domains prior to operations.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: McAfee Dianxun March 2021)"
+        },
+        {
+            "techniqueID": "T1071",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1071.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has communicated with its C2 via HTTP POST requests.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: McAfee Dianxun March 2021)"
+        },
+        {
+            "techniqueID": "T1560",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1560.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used RAR to create password-protected archives of collected documents prior to exfiltration.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1560.003",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has encrypted documents with RC4 prior to exfiltration.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1119",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) used custom batch scripts to collect files automatically from a targeted system.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "techniqueID": "T1547",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1547.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has created the registry key HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\AdobelmdyU to maintain persistence.(Citation: Proofpoint TA416 November 2020)"
+        },
+        {
+            "techniqueID": "T1059",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used malicious PowerShell scripts to enable execution.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.003",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has executed HTA files via cmd.exe, and used batch scripts for collection.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.005",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has embedded VBScript components in LNK files to download additional files and automate collection.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "techniqueID": "T1074",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1074.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has stored collected credential files in c:\\windows\\temp prior to exfiltration. [Mustang Panda](https://attack.mitre.org/groups/G0129) has also stored documents for exfiltration in a hidden folder on USB drives.(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "techniqueID": "T1573",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1573.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has encrypted C2 communications with RC4.(Citation: Recorded Future REDDELTA July 2020)"
+        },
+        {
+            "techniqueID": "T1585",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1585.002",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has leveraged the legitimate email marketing service SMTP2Go for phishing campaigns.(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "techniqueID": "T1546",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1546.003",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129)'s custom ORat tool uses a WMI event consumer to maintain persistence.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "techniqueID": "T1052",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1052.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a customized [PlugX](https://attack.mitre.org/software/S0013) variant which could exfiltrate documents from air-gapped networks.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1203",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has exploited CVE-2017-0199 in Microsoft Word to execute code.(Citation: Crowdstrike MUSTANG PANDA June 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1083",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has searched the entire target system for DOC, DOCX, PPT, PPTX, XLS, XLSX, and PDF files.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "techniqueID": "T1564",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1564.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129)'s [PlugX](https://attack.mitre.org/software/S0013) variant has created a hidden folder on USB drives named RECYCLE.BIN to store malicious executables and collected data.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "techniqueID": "T1574",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1574.002",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a legitimately signed executable to execute a malicious payload within a DLL file.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: Proofpoint TA416 November 2020)"
+        },
+        {
+            "techniqueID": "T1070",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1070.004",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) will delete their tools and files, and kill processes after their objectives are reached.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1105",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has downloaded additional executables following the initial infection stage.(Citation: Recorded Future REDDELTA July 2020)"
+        },
+        {
+            "techniqueID": "T1036",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1036.005",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used names like `adobeupdate.dat` and `PotPlayerDB.dat` to disguise [PlugX](https://attack.mitre.org/software/S0013), and a file named `OneDrive.exe` to load a [Cobalt Strike](https://attack.mitre.org/software/S0154) payload.(Citation: Recorded Future REDDELTA July 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1036.007",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used an additional filename extension to hide the true file type.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has delivered initial payloads hidden using archives and encoding measures.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: Proofpoint TA416 November 2020)(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1027.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used junk code within their DLL files to hinder analysis.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "techniqueID": "T1003",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1003.003",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used vssadmin to create a volume shadow copy and retrieve the NTDS.dit file. [Mustang Panda](https://attack.mitre.org/groups/G0129) has also used reg save on the SYSTEM file Registry location to help extract the NTDS.dit file.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "techniqueID": "T1566",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1566.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used spearphishing attachments to deliver initial access payloads.(Citation: Recorded Future REDDELTA July 2020)(Citation: Proofpoint TA416 November 2020)(Citation: Google TAG Ukraine Threat Landscape March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1566.002",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has delivered web bugs and malicious links to their intended targets.(Citation: McAfee Dianxun March 2021)(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1057",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used tasklist /v to determine active process information.(Citation: Avira Mustang Panda January 2020)\t"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1219",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has installed TeamViewer on targeted systems.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1091",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used a customized [PlugX](https://attack.mitre.org/software/S0013) variant which could spread through USB connections.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "techniqueID": "T1053",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1053.005",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has created a scheduled task to execute additional malicious software, as well as maintain persistence.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: McAfee Dianxun March 2021)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1518",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has searched the victim system for the InstallUtil.exe program and its version.(Citation: Anomali MUSTANG PANDA October 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1608",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used servers under their control to validate tracking pixels sent to phishing victims.(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1608.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has hosted malicious payloads on DropBox including [PlugX](https://attack.mitre.org/software/S0013).(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "techniqueID": "T1218",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1218.004",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used InstallUtil.exe to execute a malicious Beacon stager.(Citation: Anomali MUSTANG PANDA October 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1218.005",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used mshta.exe to launch collection scripts.(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1082",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has gathered system information using systeminfo.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1016",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used ipconfig and arp to determine network configuration information.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1049",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used netstat -ano to determine network connection information.(Citation: Avira Mustang Panda January 2020)"
+        },
+        {
+            "techniqueID": "T1204",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1204.001",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has sent malicious links including links directing victims to a Google Drive folder.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: McAfee Dianxun March 2021)(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1204.002",
+            "showSubtechniques": true,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has sent malicious files requiring direct victim interaction to execute.(Citation: Crowdstrike MUSTANG PANDA June 2018)(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Avira Mustang Panda January 2020)(Citation: Recorded Future REDDELTA July 2020)(Citation: Google TAG Ukraine Threat Landscape March 2022)(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1102",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has used DropBox URLs to deliver variants of [PlugX](https://attack.mitre.org/software/S0013).(Citation: Proofpoint TA416 Europe March 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1047",
+            "showSubtechniques": false,
+            "comment": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has executed PowerShell scripts via WMI.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)"
+        },
+        {
+            "techniqueID": "T1547",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1547.001",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has modified a victim's Windows Run registry to establish persistence.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "techniqueID": "T1574",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1574.002",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used DLL side-loading to load malicious DLL's into legitimate executables.(Citation: CheckPoint Naikon May 2020)"
+        },
+        {
+            "techniqueID": "T1036",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1036.004",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) renamed a malicious service taskmgr to appear to be a legitimate version of Task Manager.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1036.005",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has disguised malicious programs as Google Chrome, Adobe, and VMware executables.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1046",
+            "showSubtechniques": false,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used the LadonGo scanner to scan target networks.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "techniqueID": "T1137",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1137.006",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used the RoyalRoad exploit builder to drop a second stage loader, intel.wll, into the Word Startup folder on the compromised host.(Citation: CheckPoint Naikon May 2020)"
+        },
+        {
+            "techniqueID": "T1566",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1566.001",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used malicious e-mail attachments to deliver malware.(Citation: CheckPoint Naikon May 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1018",
+            "showSubtechniques": false,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used a netbios scanner for remote machine identification.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "techniqueID": "T1053",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1053.005",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used schtasks.exe for lateral movement in compromised networks.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "techniqueID": "T1518",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1518.001",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as netsh advfirewall firewall to discover local firewall settings.(Citation: Baumgartner Naikon 2015)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1016",
+            "showSubtechniques": false,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as netsh interface show to discover network interface settings.(Citation: Baumgartner Naikon 2015)"
+        },
+        {
+            "techniqueID": "T1204",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1204.002",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has convinced victims to open malicious attachments to execute malware.(Citation: CheckPoint Naikon May 2020)"
+        },
+        {
+            "techniqueID": "T1078",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1078.002",
+            "showSubtechniques": true,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used administrator credentials for lateral movement in compromised networks.(Citation: Bitdefender Naikon April 2021)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1047",
+            "showSubtechniques": false,
+            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used WMIC.exe for lateral movement.(Citation: Bitdefender Naikon April 2021)"
         },
         {
             "techniqueID": "T1059",
@@ -19532,140 +19666,6 @@
             "techniqueID": "T1047",
             "showSubtechniques": false,
             "comment": "[OilRig](https://attack.mitre.org/groups/G0049) has used WMI for execution.(Citation: FireEye APT34 Webinar Dec 2017)"
-        },
-        {
-            "techniqueID": "T1547",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1547.001",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has modified a victim's Windows Run registry to establish persistence.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "techniqueID": "T1574",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1574.002",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used DLL side-loading to load malicious DLL's into legitimate executables.(Citation: CheckPoint Naikon May 2020)"
-        },
-        {
-            "techniqueID": "T1036",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1036.004",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) renamed a malicious service taskmgr to appear to be a legitimate version of Task Manager.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1036.005",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has disguised malicious programs as Google Chrome, Adobe, and VMware executables.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1046",
-            "showSubtechniques": false,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used the LadonGo scanner to scan target networks.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "techniqueID": "T1137",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1137.006",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used the RoyalRoad exploit builder to drop a second stage loader, intel.wll, into the Word Startup folder on the compromised host.(Citation: CheckPoint Naikon May 2020)"
-        },
-        {
-            "techniqueID": "T1566",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1566.001",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used malicious e-mail attachments to deliver malware.(Citation: CheckPoint Naikon May 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1018",
-            "showSubtechniques": false,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used a netbios scanner for remote machine identification.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "techniqueID": "T1053",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1053.005",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used schtasks.exe for lateral movement in compromised networks.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "techniqueID": "T1518",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1518.001",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as netsh advfirewall firewall to discover local firewall settings.(Citation: Baumgartner Naikon 2015)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1016",
-            "showSubtechniques": false,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) uses commands such as netsh interface show to discover network interface settings.(Citation: Baumgartner Naikon 2015)"
-        },
-        {
-            "techniqueID": "T1204",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1204.002",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has convinced victims to open malicious attachments to execute malware.(Citation: CheckPoint Naikon May 2020)"
-        },
-        {
-            "techniqueID": "T1078",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1078.002",
-            "showSubtechniques": true,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used administrator credentials for lateral movement in compromised networks.(Citation: Bitdefender Naikon April 2021)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1047",
-            "showSubtechniques": false,
-            "comment": "[Naikon](https://attack.mitre.org/groups/G0019) has used WMIC.exe for lateral movement.(Citation: Bitdefender Naikon April 2021)"
         },
         {
             "techniqueID": "T1071",
