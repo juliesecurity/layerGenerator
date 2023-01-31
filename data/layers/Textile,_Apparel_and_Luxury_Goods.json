@@ -14,148 +14,15 @@
     },
     "techniques": [
         {
-            "techniqueID": "T1071",
+            "techniqueID": "T1036",
             "showSubtechniques": true
         },
         {
             "score": 1,
             "color": "#66b1ff",
-            "techniqueID": "T1071.001",
+            "techniqueID": "T1036.002",
             "showSubtechniques": true,
-            "comment": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses HTTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1071.002",
-            "showSubtechniques": true,
-            "comment": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses FTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1071.003",
-            "showSubtechniques": true,
-            "comment": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses SMTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)"
-        },
-        {
-            "techniqueID": "T1583",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1583.001",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has acquired domains to establish credential harvesting pages, often spoofing the target organization and using free top level domains .TK, .ML, .GA, .CF, and .GQ.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)"
-        },
-        {
-            "techniqueID": "T1110",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1110.003",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used collected lists of names and e-mail accounts to use in password spraying attacks against private sector targets.(Citation: DOJ Iran Indictments March 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1114",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has exfiltrated entire mailboxes from compromised accounts.(Citation: DOJ Iran Indictments March 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1114.003",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has set up auto forwarding rules on compromised e-mail accounts.(Citation: DOJ Iran Indictments March 2018)"
-        },
-        {
-            "techniqueID": "T1585",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1585.002",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has established e-mail accounts to receive e-mails forwarded from compromised accounts.(Citation: DOJ Iran Indictments March 2018)"
-        },
-        {
-            "techniqueID": "T1589",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1589.002",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has collected e-mail addresses from targeted organizations from open Internet searches.(Citation: DOJ Iran Indictments March 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1589.003",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has collected lists of names for individuals from targeted organizations.(Citation: DOJ Iran Indictments March 2018)"
-        },
-        {
-            "techniqueID": "T1588",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1588.002",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free and publicly available tools including SingleFile and HTTrack to copy login pages of targeted organizations.(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1588.004",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free Let's Encrypt SSL certificates for use on their phishing pages.(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS September 2019)"
-        },
-        {
-            "techniqueID": "T1598",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1598.003",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used links in e-mails to direct victims to credential harvesting websites designed to appear like the targeted organization's login page.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1594",
-            "showSubtechniques": false,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has searched victim's websites to identify the interests and academic areas of targeted individuals and to scrape source code, branding, and organizational contact information for phishing pages.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Proofpoint TA407 September 2019)"
-        },
-        {
-            "techniqueID": "T1608",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1608.005",
-            "showSubtechniques": true,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has cloned victim organization login pages and staged them for later use in credential harvesting campaigns. [Silent Librarian](https://attack.mitre.org/groups/G0122) has also made use of a variety of URL shorteners for these staged websites.(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)(Citation: Proofpoint TA407 September 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1078",
-            "showSubtechniques": false,
-            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used compromised credentials to obtain unauthorized access to online accounts.(Citation: DOJ Iran Indictments March 2018)"
+            "comment": "[Scarlet Mimic](https://attack.mitre.org/groups/G0029) has used the left-to-right override character in self-extracting RAR archive spearphishing attachment file names.(Citation: Scarlet Mimic Jan 2016)"
         },
         {
             "techniqueID": "T1059",
@@ -305,15 +172,400 @@
             "comment": "[SideCopy](https://attack.mitre.org/groups/G1008) has attempted to lure victims into clicking on malicious embedded archive files sent via spearphishing campaigns.(Citation: MalwareBytes SideCopy Dec 2021)"
         },
         {
+            "techniqueID": "T1547",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1547.001",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run, HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run, and the Startup folder to establish persistence.(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
+            "techniqueID": "T1059",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.001",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used PowerShell to download and execute payloads.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.003",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used Windows command-line to run commands.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.005",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used VBS scripts.(Citation: Cyber Forensicator Silence Jan 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.007",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used JS scripts.(Citation: Cyber Forensicator Silence Jan 2019)"
+        },
+        {
+            "techniqueID": "T1070",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1070.004",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has deleted artifacts, including scheduled tasks, communicates files from the C2 and other logs.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1105",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has downloaded additional modules and malware to victim’s machines.(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
             "techniqueID": "T1036",
             "showSubtechniques": true
         },
         {
             "score": 1,
             "color": "#66b1ff",
-            "techniqueID": "T1036.002",
+            "techniqueID": "T1036.005",
             "showSubtechniques": true,
-            "comment": "[Scarlet Mimic](https://attack.mitre.org/groups/G0029) has used the left-to-right override character in self-extracting RAR archive spearphishing attachment file names.(Citation: Scarlet Mimic Jan 2016)"
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has named its backdoor \"WINWORD.exe\".(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1112",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) can create, delete, or modify a specified Registry key or value.(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1106",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has leveraged the Windows API, including using CreateProcess() or ShellExecute(), to perform a variety of tasks.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1571",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used port 444 when sending data about the system from the client to the server.(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1027",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used environment variable string substitution for obfuscation.(Citation: Cyber Forensicator Silence Jan 2019)"
+        },
+        {
+            "techniqueID": "T1588",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1588.002",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has obtained and modified versions of publicly-available tools like [Empire](https://attack.mitre.org/software/S0363) and [PsExec](https://attack.mitre.org/software/S0029).(Citation: Group IB Silence Aug 2019) (Citation: SecureList Silence Nov 2017)"
+        },
+        {
+            "techniqueID": "T1003",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1003.001",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used the Farse6.1 utility (based on [Mimikatz](https://attack.mitre.org/software/S0002)) to extract credentials from lsass.exe.(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "techniqueID": "T1566",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1566.001",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has sent emails with malicious DOCX, CHM, LNK and ZIP attachments. (Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1055",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has injected a DLL library containing a Trojan into the fwmain32.exe process.(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "techniqueID": "T1090",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1090.002",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used ProxyBot, which allows the attacker to redirect traffic from the current node to the backconnect server via Sock4\\Socks5.(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
+            "techniqueID": "T1021",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1021.001",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used RDP for lateral movement.(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1018",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used Nmap to scan the corporate network, build a network topology, and identify vulnerable hosts.(Citation: Group IB Silence Sept 2018)\t"
+        },
+        {
+            "techniqueID": "T1053",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1053.005",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used scheduled tasks to stage its operation.(Citation: Cyber Forensicator Silence Jan 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1113",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) can capture victim screen activity.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1072",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used RAdmin, a remote software tool used to remotely control workstations and ATMs.(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "techniqueID": "T1553",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1553.002",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used a valid certificate to sign their primary loader Silence.Downloader (aka TrueBot).(Citation: Group IB Silence Aug 2019)"
+        },
+        {
+            "techniqueID": "T1218",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1218.001",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has weaponized CHM files in their phishing campaigns.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Aug 2019)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "techniqueID": "T1569",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1569.002",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used [Winexe](https://attack.mitre.org/software/S0191) to install a service on the remote system.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "techniqueID": "T1204",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1204.002",
+            "showSubtechniques": true,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) attempts to get users to launch malicious attachments delivered via spearphishing emails.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1078",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used compromised credentials to log on to other systems and escalate privileges.(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1125",
+            "showSubtechniques": false,
+            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has been observed making videos of victims to observe bank employees day to day activities.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
+        },
+        {
+            "techniqueID": "T1583",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1583.001",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has acquired domains to establish credential harvesting pages, often spoofing the target organization and using free top level domains .TK, .ML, .GA, .CF, and .GQ.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)"
+        },
+        {
+            "techniqueID": "T1110",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1110.003",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used collected lists of names and e-mail accounts to use in password spraying attacks against private sector targets.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1114",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has exfiltrated entire mailboxes from compromised accounts.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1114.003",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has set up auto forwarding rules on compromised e-mail accounts.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "techniqueID": "T1585",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1585.002",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has established e-mail accounts to receive e-mails forwarded from compromised accounts.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "techniqueID": "T1589",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1589.002",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has collected e-mail addresses from targeted organizations from open Internet searches.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1589.003",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has collected lists of names for individuals from targeted organizations.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "techniqueID": "T1588",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1588.002",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free and publicly available tools including SingleFile and HTTrack to copy login pages of targeted organizations.(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1588.004",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has obtained free Let's Encrypt SSL certificates for use on their phishing pages.(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS September 2019)"
+        },
+        {
+            "techniqueID": "T1598",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1598.003",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used links in e-mails to direct victims to credential harvesting websites designed to appear like the targeted organization's login page.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Secureworks COBALT DICKENS August 2018)(Citation: Proofpoint TA407 September 2019)(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1594",
+            "showSubtechniques": false,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has searched victim's websites to identify the interests and academic areas of targeted individuals and to scrape source code, branding, and organizational contact information for phishing pages.(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Proofpoint TA407 September 2019)"
+        },
+        {
+            "techniqueID": "T1608",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1608.005",
+            "showSubtechniques": true,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has cloned victim organization login pages and staged them for later use in credential harvesting campaigns. [Silent Librarian](https://attack.mitre.org/groups/G0122) has also made use of a variety of URL shorteners for these staged websites.(Citation: Secureworks COBALT DICKENS September 2019)(Citation: Malwarebytes Silent Librarian October 2020)(Citation: Proofpoint TA407 September 2019)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1078",
+            "showSubtechniques": false,
+            "comment": "[Silent Librarian](https://attack.mitre.org/groups/G0122) has used compromised credentials to obtain unauthorized access to online accounts.(Citation: DOJ Iran Indictments March 2018)"
+        },
+        {
+            "techniqueID": "T1071",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1071.001",
+            "showSubtechniques": true,
+            "comment": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses HTTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1071.002",
+            "showSubtechniques": true,
+            "comment": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses FTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)\t"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1071.003",
+            "showSubtechniques": true,
+            "comment": "[SilverTerrier](https://attack.mitre.org/groups/G0083) uses SMTP for C2 communications.(Citation: Unit42 SilverTerrier 2018)"
         },
         {
             "techniqueID": "T1087",
@@ -1180,258 +1432,6 @@
             "techniqueID": "T1204.002",
             "showSubtechniques": true,
             "comment": "[Sidewinder](https://attack.mitre.org/groups/G0121) has lured targets to click on malicious files to gain execution in the target environment.(Citation: ATT Sidewinder January 2021)(Citation: Rewterz Sidewinder APT April 2020)(Citation: Rewterz Sidewinder COVID-19 June 2020)(Citation: Cyble Sidewinder September 2020)"
-        },
-        {
-            "techniqueID": "T1547",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1547.001",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run, HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run, and the Startup folder to establish persistence.(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "techniqueID": "T1059",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.001",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used PowerShell to download and execute payloads.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.003",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used Windows command-line to run commands.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.005",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used VBS scripts.(Citation: Cyber Forensicator Silence Jan 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.007",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used JS scripts.(Citation: Cyber Forensicator Silence Jan 2019)"
-        },
-        {
-            "techniqueID": "T1070",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1070.004",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has deleted artifacts, including scheduled tasks, communicates files from the C2 and other logs.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1105",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has downloaded additional modules and malware to victim’s machines.(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "techniqueID": "T1036",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1036.005",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has named its backdoor \"WINWORD.exe\".(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1112",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) can create, delete, or modify a specified Registry key or value.(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1106",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has leveraged the Windows API, including using CreateProcess() or ShellExecute(), to perform a variety of tasks.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1571",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used port 444 when sending data about the system from the client to the server.(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1027",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used environment variable string substitution for obfuscation.(Citation: Cyber Forensicator Silence Jan 2019)"
-        },
-        {
-            "techniqueID": "T1588",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1588.002",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has obtained and modified versions of publicly-available tools like [Empire](https://attack.mitre.org/software/S0363) and [PsExec](https://attack.mitre.org/software/S0029).(Citation: Group IB Silence Aug 2019) (Citation: SecureList Silence Nov 2017)"
-        },
-        {
-            "techniqueID": "T1003",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1003.001",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used the Farse6.1 utility (based on [Mimikatz](https://attack.mitre.org/software/S0002)) to extract credentials from lsass.exe.(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "techniqueID": "T1566",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1566.001",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has sent emails with malicious DOCX, CHM, LNK and ZIP attachments. (Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1055",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has injected a DLL library containing a Trojan into the fwmain32.exe process.(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "techniqueID": "T1090",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1090.002",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used ProxyBot, which allows the attacker to redirect traffic from the current node to the backconnect server via Sock4\\Socks5.(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "techniqueID": "T1021",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1021.001",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used RDP for lateral movement.(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1018",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used Nmap to scan the corporate network, build a network topology, and identify vulnerable hosts.(Citation: Group IB Silence Sept 2018)\t"
-        },
-        {
-            "techniqueID": "T1053",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1053.005",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used scheduled tasks to stage its operation.(Citation: Cyber Forensicator Silence Jan 2019)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1113",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) can capture victim screen activity.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1072",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used RAdmin, a remote software tool used to remotely control workstations and ATMs.(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "techniqueID": "T1553",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1553.002",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used a valid certificate to sign their primary loader Silence.Downloader (aka TrueBot).(Citation: Group IB Silence Aug 2019)"
-        },
-        {
-            "techniqueID": "T1218",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1218.001",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has weaponized CHM files in their phishing campaigns.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Aug 2019)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "techniqueID": "T1569",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1569.002",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used [Winexe](https://attack.mitre.org/software/S0191) to install a service on the remote system.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "techniqueID": "T1204",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1204.002",
-            "showSubtechniques": true,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) attempts to get users to launch malicious attachments delivered via spearphishing emails.(Citation: Cyber Forensicator Silence Jan 2019)(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1078",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has used compromised credentials to log on to other systems and escalate privileges.(Citation: Group IB Silence Sept 2018)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1125",
-            "showSubtechniques": false,
-            "comment": "[Silence](https://attack.mitre.org/groups/G0091) has been observed making videos of victims to observe bank employees day to day activities.(Citation: SecureList Silence Nov 2017)(Citation: Group IB Silence Sept 2018)"
         },
         {
             "techniqueID": "T1560",
@@ -3386,6 +3386,46 @@
             "color": "#66b1ff",
             "techniqueID": "T1059.001",
             "showSubtechniques": true,
+            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) leveraged PowerShell to run commands to download payloads, traverse the compromised networks, and carry out reconnaissance.(Citation: Symantec Thrip June 2018)"
+        },
+        {
+            "techniqueID": "T1048",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1048.003",
+            "showSubtechniques": true,
+            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) has used WinSCP to exfiltrate data from a targeted organization over FTP.(Citation: Symantec Thrip June 2018)"
+        },
+        {
+            "techniqueID": "T1588",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1588.002",
+            "showSubtechniques": true,
+            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002) and [PsExec](https://attack.mitre.org/software/S0029).(Citation: Symantec Thrip June 2018)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1219",
+            "showSubtechniques": false,
+            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) used a cloud-based remote access software called LogMeIn for their attacks.(Citation: Symantec Thrip June 2018)"
+        },
+        {
+            "techniqueID": "T1059",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1059.001",
+            "showSubtechniques": true,
             "comment": "[Tonto Team](https://attack.mitre.org/groups/G0131) has used PowerShell to download additional payloads.(Citation: ESET Exchange Mar 2021)"
         },
         {
@@ -3515,44 +3555,152 @@
             "comment": "[Tonto Team](https://attack.mitre.org/groups/G0131) has relied on user interaction to open their malicious RTF documents.(Citation: TrendMicro Tonto Team October 2020)(Citation: Talos Bisonal Mar 2020) "
         },
         {
+            "techniqueID": "T1583",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#ff66f4",
+            "techniqueID": "T1583.001",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has registered domains to mimic file sharing, government, defense, and research websites for use in targeted campaigns.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Talos Transparent Tribe May 2021)For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) registered domains likely designed to appear relevant to student targets in India.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
+        },
+        {
             "techniqueID": "T1059",
             "showSubtechniques": true
         },
         {
             "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1059.001",
+            "color": "#ff66f4",
+            "techniqueID": "T1059.005",
             "showSubtechniques": true,
-            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) leveraged PowerShell to run commands to download payloads, traverse the compromised networks, and carry out reconnaissance.(Citation: Symantec Thrip June 2018)"
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has crafted VBS-based malicious documents.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)\t For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) used malicious VBA macros within a lure document as part of the [Crimson](https://attack.mitre.org/software/S0115) malware installation process onto a compromised host.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
         },
         {
-            "techniqueID": "T1048",
+            "techniqueID": "T1584",
             "showSubtechniques": true
         },
         {
             "score": 1,
             "color": "#66b1ff",
-            "techniqueID": "T1048.003",
+            "techniqueID": "T1584.001",
             "showSubtechniques": true,
-            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) has used WinSCP to exfiltrate data from a targeted organization over FTP.(Citation: Symantec Thrip June 2018)"
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has compromised domains for use in targeted malicious campaigns.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
         },
         {
-            "techniqueID": "T1588",
+            "techniqueID": "T1587",
             "showSubtechniques": true
         },
         {
             "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1588.002",
+            "color": "#ff6666",
+            "techniqueID": "T1587.003",
             "showSubtechniques": true,
-            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) has obtained and used tools such as [Mimikatz](https://attack.mitre.org/software/S0002) and [PsExec](https://attack.mitre.org/software/S0029).(Citation: Symantec Thrip June 2018)"
+            "comment": "For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) established SSL certificates on the typo-squatted domains the group registered.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
         },
         {
             "score": 1,
             "color": "#66b1ff",
-            "techniqueID": "T1219",
+            "techniqueID": "T1189",
             "showSubtechniques": false,
-            "comment": "[Thrip](https://attack.mitre.org/groups/G0076) used a cloud-based remote access software called LogMeIn for their attacks.(Citation: Symantec Thrip June 2018)"
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has used websites with malicious hyperlinks and iframes to infect targeted victims with [Crimson](https://attack.mitre.org/software/S0115), [njRAT](https://attack.mitre.org/software/S0385), and other malicious tools.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Unit 42 ProjectM March 2016)(Citation: Talos Transparent Tribe May 2021)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1568",
+            "showSubtechniques": false,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has used dynamic DNS services to set up C2.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1203",
+            "showSubtechniques": false,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has crafted malicious files to exploit CVE-2012-0158 and CVE-2010-3333 for execution.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
+        },
+        {
+            "techniqueID": "T1564",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1564.001",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) can hide legitimate directories and replace them with malicious copies of the same name.(Citation: Kaspersky Transparent Tribe August 2020)"
+        },
+        {
+            "techniqueID": "T1036",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1036.005",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) can mimic legitimate Windows directories by using the same icons and names.(Citation: Kaspersky Transparent Tribe August 2020)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1027",
+            "showSubtechniques": false,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has dropped encoded executables on compromised hosts.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
+        },
+        {
+            "techniqueID": "T1566",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#ff66f4",
+            "techniqueID": "T1566.001",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has sent spearphishing e-mails with attachments to deliver malicious payloads.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)(Citation: Unit 42 ProjectM March 2016)\t During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) sent malicious attachments via email to student targets in India.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022) "
+        },
+        {
+            "score": 1,
+            "color": "#ff66f4",
+            "techniqueID": "T1566.002",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has embedded links to malicious downloads in e-mails.(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) sent emails containing a malicious link to student targets in India.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
+        },
+        {
+            "techniqueID": "T1608",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#ff6666",
+            "techniqueID": "T1608.001",
+            "showSubtechniques": true,
+            "comment": "For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) hosted malicious documents on domains registered by the group.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022) "
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1608.004",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has set up websites with malicious hyperlinks and iframes to infect targeted victims with [Crimson](https://attack.mitre.org/software/S0115), [njRAT](https://attack.mitre.org/software/S0385), and other malicious tools.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Unit 42 ProjectM March 2016)(Citation: Talos Transparent Tribe May 2021)"
+        },
+        {
+            "techniqueID": "T1204",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#ff66f4",
+            "techniqueID": "T1204.001",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has directed users to open URLs hosting malicious content.(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) relied on student targets to click on a malicious link sent via email.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
+        },
+        {
+            "score": 1,
+            "color": "#ff66f4",
+            "techniqueID": "T1204.002",
+            "showSubtechniques": true,
+            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has used weaponized documents in e-mail to compromise targeted systems.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)(Citation: Unit 42 ProjectM March 2016)During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) relied on a student target to open a malicious document delivered via email.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
         },
         {
             "techniqueID": "T1071",
@@ -3885,154 +4033,6 @@
             "techniqueID": "T1078.003",
             "showSubtechniques": true,
             "comment": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has used known administrator account credentials to execute the backdoor directly.(Citation: TrendMicro Tropic Trooper May 2020)\t"
-        },
-        {
-            "techniqueID": "T1583",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#ff66f4",
-            "techniqueID": "T1583.001",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has registered domains to mimic file sharing, government, defense, and research websites for use in targeted campaigns.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Talos Transparent Tribe May 2021)For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) registered domains likely designed to appear relevant to student targets in India.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
-        },
-        {
-            "techniqueID": "T1059",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#ff66f4",
-            "techniqueID": "T1059.005",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has crafted VBS-based malicious documents.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)\t For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) used malicious VBA macros within a lure document as part of the [Crimson](https://attack.mitre.org/software/S0115) malware installation process onto a compromised host.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
-        },
-        {
-            "techniqueID": "T1584",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1584.001",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has compromised domains for use in targeted malicious campaigns.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
-        },
-        {
-            "techniqueID": "T1587",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#ff6666",
-            "techniqueID": "T1587.003",
-            "showSubtechniques": true,
-            "comment": "For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) established SSL certificates on the typo-squatted domains the group registered.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1189",
-            "showSubtechniques": false,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has used websites with malicious hyperlinks and iframes to infect targeted victims with [Crimson](https://attack.mitre.org/software/S0115), [njRAT](https://attack.mitre.org/software/S0385), and other malicious tools.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Unit 42 ProjectM March 2016)(Citation: Talos Transparent Tribe May 2021)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1568",
-            "showSubtechniques": false,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has used dynamic DNS services to set up C2.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1203",
-            "showSubtechniques": false,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has crafted malicious files to exploit CVE-2012-0158 and CVE-2010-3333 for execution.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
-        },
-        {
-            "techniqueID": "T1564",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1564.001",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) can hide legitimate directories and replace them with malicious copies of the same name.(Citation: Kaspersky Transparent Tribe August 2020)"
-        },
-        {
-            "techniqueID": "T1036",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1036.005",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) can mimic legitimate Windows directories by using the same icons and names.(Citation: Kaspersky Transparent Tribe August 2020)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1027",
-            "showSubtechniques": false,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has dropped encoded executables on compromised hosts.(Citation: Proofpoint Operation Transparent Tribe March 2016)"
-        },
-        {
-            "techniqueID": "T1566",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#ff66f4",
-            "techniqueID": "T1566.001",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has sent spearphishing e-mails with attachments to deliver malicious payloads.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)(Citation: Unit 42 ProjectM March 2016)\t During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) sent malicious attachments via email to student targets in India.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022) "
-        },
-        {
-            "score": 1,
-            "color": "#ff66f4",
-            "techniqueID": "T1566.002",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has embedded links to malicious downloads in e-mails.(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) sent emails containing a malicious link to student targets in India.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
-        },
-        {
-            "techniqueID": "T1608",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#ff6666",
-            "techniqueID": "T1608.001",
-            "showSubtechniques": true,
-            "comment": "For [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) hosted malicious documents on domains registered by the group.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022) "
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1608.004",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has set up websites with malicious hyperlinks and iframes to infect targeted victims with [Crimson](https://attack.mitre.org/software/S0115), [njRAT](https://attack.mitre.org/software/S0385), and other malicious tools.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Unit 42 ProjectM March 2016)(Citation: Talos Transparent Tribe May 2021)"
-        },
-        {
-            "techniqueID": "T1204",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#ff66f4",
-            "techniqueID": "T1204.001",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has directed users to open URLs hosting malicious content.(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) relied on student targets to click on a malicious link sent via email.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
-        },
-        {
-            "score": 1,
-            "color": "#ff66f4",
-            "techniqueID": "T1204.002",
-            "showSubtechniques": true,
-            "comment": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) has used weaponized documents in e-mail to compromise targeted systems.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Talos Oblique RAT March 2021)(Citation: Talos Transparent Tribe May 2021)(Citation: Unit 42 ProjectM March 2016)During [C0011](https://attack.mitre.org/campaigns/C0011), [Transparent Tribe](https://attack.mitre.org/groups/G0134) relied on a student target to open a malicious document delivered via email.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)"
         },
         {
             "techniqueID": "T1134",

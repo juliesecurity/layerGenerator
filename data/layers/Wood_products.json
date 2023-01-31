@@ -12524,6 +12524,42 @@
             "comment": "[Gorgon Group](https://attack.mitre.org/groups/G0078) attempted to get users to launch malicious Microsoft Office attachments delivered via spearphishing emails.(Citation: Unit 42 Gorgon Group Aug 2018)"
         },
         {
+            "techniqueID": "T1070",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1070.004",
+            "showSubtechniques": true,
+            "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of remotely deleting files from victims.(Citation: Citizen Lab Group5)"
+        },
+        {
+            "techniqueID": "T1056",
+            "showSubtechniques": true
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1056.001",
+            "showSubtechniques": true,
+            "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of capturing keystrokes.(Citation: Citizen Lab Group5)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1027",
+            "showSubtechniques": false,
+            "comment": "[Group5](https://attack.mitre.org/groups/G0043) disguised its malicious binaries with several layers of obfuscation, including encrypting the files.(Citation: Citizen Lab Group5)"
+        },
+        {
+            "score": 1,
+            "color": "#66b1ff",
+            "techniqueID": "T1113",
+            "showSubtechniques": false,
+            "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of watching the victim's screen.(Citation: Citizen Lab Group5)"
+        },
+        {
             "techniqueID": "T1583",
             "showSubtechniques": true
         },
@@ -12724,42 +12760,6 @@
             "techniqueID": "T1078.003",
             "showSubtechniques": true,
             "comment": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used the NT AUTHORITY\\SYSTEM account to create files on Exchange servers.(Citation: FireEye Exchange Zero Days March 2021)"
-        },
-        {
-            "techniqueID": "T1070",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1070.004",
-            "showSubtechniques": true,
-            "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of remotely deleting files from victims.(Citation: Citizen Lab Group5)"
-        },
-        {
-            "techniqueID": "T1056",
-            "showSubtechniques": true
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1056.001",
-            "showSubtechniques": true,
-            "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of capturing keystrokes.(Citation: Citizen Lab Group5)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1027",
-            "showSubtechniques": false,
-            "comment": "[Group5](https://attack.mitre.org/groups/G0043) disguised its malicious binaries with several layers of obfuscation, including encrypting the files.(Citation: Citizen Lab Group5)"
-        },
-        {
-            "score": 1,
-            "color": "#66b1ff",
-            "techniqueID": "T1113",
-            "showSubtechniques": false,
-            "comment": "Malware used by [Group5](https://attack.mitre.org/groups/G0043) is capable of watching the victim's screen.(Citation: Citizen Lab Group5)"
         },
         {
             "techniqueID": "T1583",
