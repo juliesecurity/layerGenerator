@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Food and beverage",
     "description": "This sub-sector includes companies that produce and package food and beverages, such as cereal and snack manufacturers.",
-    "mitre_activity_groups": [ "G0143" ]
+    "mitre_activity_groups": [ "G0053", "G0046", "G0061" ]
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "id": 5,
     "name": "Petroleum and coal products",
     "description": "This sub-sector includes companies that produce and refine petroleum and coal products, such as oil and gas companies.",
-    "mitre_activity_groups": [ "G0018", "G0130", "G0138", "G1007", "G0099", "G0006", "G0005", "G0023", "G0025", "G0026", "G0073", "G0007", "G0016", "G0022", "G0013", "G0050", "G0064", "G0067", "G0082", "G0087", "G0096", "G0143", "G0001", "G0135", "G1002", "G0063", "G0098", "G0108", "G0060", "G0008", "G0114", "G0003", "G0080", "G0142", "G0052", "G0070", "G0012", "G0079", "G0105", "G0009", "G0035", "G1006", "G0066", "G1003", "G0020", "G0120", "G1011", "G0137", "G0051", "G0085", "G0053", "G0037", "G0046", "G0061", "G0117", "G0093", "G0084", "G0047", "G0036", "G0115", "G0078", "G0043", "G0125", "G1001", "G0126", "G0100", "G0136", "G0119", "G0004", "G0094", "G1004", "G0032", "G0140", "G0077", "G0065", "G0095", "G0059", "G0045", "G0002", "G0103", "G0021", "G1009", "G0069", "G0129", "G0019", "G0133", "G0049", "G0071", "G0040", "G0011", "G0068", "G1005", "G0033", "G0056", "G0024", "G0075", "G0106", "G0048", "G0034", "G0029", "G1008", "G0121", "G0091", "G0122", "G0083", "G0054", "G0038", "G0041", "G0039", "G0062", "G0092", "G0127", "G0139", "G0088", "G0089", "G0028", "G0027", "G0076", "G0131", "G0134", "G0081", "G0010", "G0123", "G0107", "G0124", "G0112", "G0044", "G0090", "G0102", "G0128" ]
+    "mitre_activity_groups": [ "G0099" ]
   },
   {
     "id": 6,
