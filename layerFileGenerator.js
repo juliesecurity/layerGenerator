@@ -14,10 +14,10 @@ const http = rateLimit(axios.create({
 
 
 // Run on start and then every 24 hours after that.
-generateLayerFiles()
-setInterval(function() {
-    generateLayerFiles()
-  }, 86400000); // 86400000 milliseconds = 24 hours
+generateLayerFiles();
+// setInterval(function() {
+//     generateLayerFiles()
+//   }, 86400000); // 86400000 milliseconds = 24 hours
 
 
 
@@ -86,7 +86,7 @@ function generateLayerFiles() {
                     let yyyy = today.getFullYear();
                     today = mm + '/' + dd + '/' + yyyy;
 
-                    commitAndPush(today)
+                    // commitAndPush(today)
                 }
             });
             }
